@@ -1,0 +1,6 @@
+:root {
+  --z-index-header: 3; /* e.g., main header */
+  --z-index-popover: 5; /* e.g., tooltips and dropdown */
+  --z-index-fixed-element: 10; /* e.g., 'back to top' button */
+  --z-index-overlay: 15; /* e.g., modals and dialogs */
+}

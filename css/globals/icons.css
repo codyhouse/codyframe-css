@@ -1,0 +1,31 @@
+.icon {
+  --size: 1em;
+  height: var(--size);
+  width: var(--size);
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  line-height: 1;
+  flex-shrink: 0;
+  max-width: initial;
+}
+
+/* rotate the icon infinitely */
+.icon--is-spinning { 
+  animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* SVG symbols - enable icon color corrections */
+.icon use {
+  color: inherit;
+  fill: currentColor;
+}

@@ -1,0 +1,34 @@
+:root {
+  --space-unit: 1rem;
+}
+
+* {
+  --space-4xs: calc(0.125 * var(--space-unit)); /* 2px */
+  --space-3xs: calc(0.25 * var(--space-unit));  /* 4px */
+  --space-2xs: calc(0.375 * var(--space-unit)); /* 6px */
+  --space-xs:  calc(0.5 * var(--space-unit));   /* 8px */
+  --space-sm:  calc(0.75 * var(--space-unit));  /* 12px */
+  --space-md:  calc(1.25 * var(--space-unit));  /* 20px */
+  --space-lg:  calc(2 * var(--space-unit));     /* 32px */
+  --space-xl:  calc(3.25 * var(--space-unit));  /* 52px */
+  --space-2xl: calc(5.25 * var(--space-unit));  /* 84px */
+  --space-3xl: calc(8.5 * var(--space-unit));   /* 136px */
+  --space-4xl: calc(13.75 * var(--space-unit)); /* 220px */
+  --component-padding: var(--space-md);
+}
+
+@media (min-width: 64rem) {
+  * {
+    --space-4xs: calc(0.1875 * var(--space-unit)); /* 3px */
+    --space-3xs: calc(0.375 * var(--space-unit));  /* 6px */
+    --space-2xs: calc(0.5625 * var(--space-unit)); /* 9px */
+    --space-xs:  calc(0.75 * var(--space-unit));   /* 12px */
+    --space-sm:  calc(1.125 * var(--space-unit));  /* 18px */
+    --space-md:  calc(1.875 * var(--space-unit));  /* 30px */
+    --space-lg:  calc(3 * var(--space-unit));      /* 48px */
+    --space-xl:  calc(4.875 * var(--space-unit));  /* 78px */
+    --space-2xl: calc(7.875 * var(--space-unit));  /* 126px */
+    --space-3xl: calc(12.75 * var(--space-unit));  /* 204px */
+    --space-4xl: calc(20.625 * var(--space-unit)); /* 330px */
+  }
+}
