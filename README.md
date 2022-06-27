@@ -1,7 +1,7 @@
 # CodyFrame CSS
 Experimental, CSS-only version of the [CodyHouse framework](https://codyhouse.co/ds/docs/framework).
 
-How to import the CSS files:
+CSS files import order:
 
 ```css
 /* reset */

@@ -12,6 +12,6 @@
   "homepage": "https://codyhouse.co",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodyHouse/codyhouse-framework.git"
+    "url": "git+https://github.com/CodyHouse/codyframe-css.git"
   }
 }
