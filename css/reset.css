@@ -48,3 +48,7 @@ img, video, svg {
   max-width: 100%;
   display: block;
 }
+
+[data-theme] {
+  color: var(--color-contrast-high);
+}
