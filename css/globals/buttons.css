@@ -65,23 +65,26 @@
   color: var(--color-contrast-higher);
   box-shadow: inset 0 1px 0 hsla(var(--color-white-hsl), 0.1), 
               0 0 0 1px hsla(var(--color-black-hsl), 0.02), 
+              0 0.3px 0.4px hsla(var(--color-black-hsl), 0.025),
               0 1px 3px -1px hsla(var(--color-black-hsl), 0.2), 
-              var(--shadow-sm);
+              0 3.5px 6px hsla(var(--color-black-hsl), 0.12);
 }
 
 .btn--subtle:hover {
   background: var(--color-bg-light);
   box-shadow: inset 0 1px 0 hsla(var(--color-white-hsl), 0.1), 
               0 0 0 1px hsla(var(--color-black-hsl), 0.02), 
-              0 1px 3px -1px hsla(var(--color-black-hsl), 0.2), 
-              var(--shadow-xs);
+              0 0.1px 0.3px hsla(var(--color-black-hsl), 0.06),
+              0 1px 2px hsla(var(--color-black-hsl), 0.12),
+              0 1px 3px -1px hsla(var(--color-black-hsl), 0.2);
 }
 
 .btn--subtle:focus-visible {
   box-shadow: inset 0 1px 0 hsla(var(--color-white-hsl), 0.1), 
               0 0 0 1px hsla(var(--color-black-hsl), 0.02), 
+              0 0.3px 0.4px hsla(var(--color-black-hsl), 0.025),
               0 1px 3px -1px hsla(var(--color-black-hsl), 0.2), 
-              var(--shadow-xs), 
+              0 3.5px 6px hsla(var(--color-black-hsl), 0.12), 
               0 0 0 2px var(--color-bg), 
               0 0 0 4px var(--color-contrast-high);
 }
@@ -117,7 +120,8 @@
 .btn--contrast {
   background: hsla(var(--color-contrast-higher-hsl), 0.95);
   color: var(--color-bg);
-  box-shadow: var(--shadow-xs);
+  box-shadow: 0 0.1px 0.3px hsla(var(--color-black-hsl), 0.06),
+              0 1px 2px hsla(var(--color-black-hsl), 0.12); 
 }
 
 .btn--contrast:hover {
@@ -125,7 +129,8 @@
 }
 
 .btn--contrast:focus-visible {
-  box-shadow: var(--shadow-xs),
+  box-shadow: 0 0.1px 0.3px hsla(var(--color-black-hsl), 0.06),
+              0 1px 2px hsla(var(--color-black-hsl), 0.12),
               0 0 0 2px var(--color-bg), 
               0 0 0 4px hsla(var(--color-contrast-higher-hsl), 0.95);
 }
