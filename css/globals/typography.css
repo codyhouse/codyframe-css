@@ -49,7 +49,6 @@ body {
 h1, h2, h3, h4 {
   color: var(--color-contrast-higher);
   line-height: var(--heading-line-height);
-  font-family: var(--font-secondary);
   font-weight: 700;
 }
 
