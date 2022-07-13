@@ -299,8 +299,8 @@
 }
 
 .gap-0 {
-  --gap-x: var(--space-4xl);
-  --gap-y: var(--space-4xl);
+  --gap-x: 0px;
+  --gap-y: 0px;
 }
 
 .gap-0 > * {
@@ -397,7 +397,7 @@
 }
 
 .gap-x-0 {
-  --gap-x: var(--space-4xl);
+  --gap-x: 0px;
 }
 
 .gap-x-0 > * {
@@ -493,7 +493,7 @@
 }
 
 .gap-y-0 {
-  --gap-y: var(--space-4xl);
+  --gap-y: 0px;
 }
 
 .gap-y-0 > * {
@@ -4128,8 +4128,8 @@
   }
   
   .gap-0\@xs {
-    --gap-x: var(--space-4xl);
-    --gap-y: var(--space-4xl);
+    --gap-x: 0px;
+    --gap-y: 0px;
   }
   
   .gap-0\@xs > * {
@@ -4226,7 +4226,7 @@
   }
   
   .gap-x-0\@xs {
-    --gap-x: var(--space-4xl);
+    --gap-x: 0px;
   }
   
   .gap-x-0\@xs > * {
@@ -4322,7 +4322,7 @@
   }
   
   .gap-y-0\@xs {
-    --gap-y: var(--space-4xl);
+    --gap-y: 0px;
   }
   
   .gap-y-0\@xs > * {
@@ -6251,8 +6251,8 @@
   }
   
   .gap-0\@sm {
-    --gap-x: var(--space-4xl);
-    --gap-y: var(--space-4xl);
+    --gap-x: 0px;
+    --gap-y: 0px;
   }
   
   .gap-0\@sm > * {
@@ -6349,7 +6349,7 @@
   }
   
   .gap-x-0\@sm {
-    --gap-x: var(--space-4xl);
+    --gap-x: 0px;
   }
   
   .gap-x-0\@sm > * {
@@ -6445,7 +6445,7 @@
   }
   
   .gap-y-0\@sm {
-    --gap-y: var(--space-4xl);
+    --gap-y: 0px;
   }
   
   .gap-y-0\@sm > * {
@@ -8374,8 +8374,8 @@
   }
   
   .gap-0\@md {
-    --gap-x: var(--space-4xl);
-    --gap-y: var(--space-4xl);
+    --gap-x: 0px;
+    --gap-y: 0px;
   }
   
   .gap-0\@md > * {
@@ -8472,7 +8472,7 @@
   }
   
   .gap-x-0\@md {
-    --gap-x: var(--space-4xl);
+    --gap-x: 0px;
   }
   
   .gap-x-0\@md > * {
@@ -8568,7 +8568,7 @@
   }
   
   .gap-y-0\@md {
-    --gap-y: var(--space-4xl);
+    --gap-y: 0px;
   }
   
   .gap-y-0\@md > * {
@@ -10497,8 +10497,8 @@
   }
   
   .gap-0\@lg {
-    --gap-x: var(--space-4xl);
-    --gap-y: var(--space-4xl);
+    --gap-x: 0px;
+    --gap-y: 0px;
   }
   
   .gap-0\@lg > * {
@@ -10595,7 +10595,7 @@
   }
   
   .gap-x-0\@lg {
-    --gap-x: var(--space-4xl);
+    --gap-x: 0px;
   }
   
   .gap-x-0\@lg > * {
@@ -10691,7 +10691,7 @@
   }
   
   .gap-y-0\@lg {
-    --gap-y: var(--space-4xl);
+    --gap-y: 0px;
   }
   
   .gap-y-0\@lg > * {
@@ -12620,8 +12620,8 @@
   }
   
   .gap-0\@xl {
-    --gap-x: var(--space-4xl);
-    --gap-y: var(--space-4xl);
+    --gap-x: 0px;
+    --gap-y: 0px;
   }
   
   .gap-0\@xl > * {
@@ -12718,7 +12718,7 @@
   }
   
   .gap-x-0\@xl {
-    --gap-x: var(--space-4xl);
+    --gap-x: 0px;
   }
   
   .gap-x-0\@xl > * {
@@ -12814,7 +12814,7 @@
   }
   
   .gap-y-0\@xl {
-    --gap-y: var(--space-4xl);
+    --gap-y: 0px;
   }
   
   .gap-y-0\@xl > * {
