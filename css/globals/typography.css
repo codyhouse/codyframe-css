@@ -104,12 +104,9 @@ small {
   list-style-type: decimal;
 }
 
-.text-component ul li::marker {
-  color: var(--color-contrast-lower);
-}
-
+.text-component ul li::marker, 
 .text-component ol li::marker {
-  color: var(--color-contrast-low);
+  color: var(--color-contrast-lower);
 }
 
 .text-component img {

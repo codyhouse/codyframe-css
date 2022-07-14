@@ -2624,6 +2624,7 @@
 .inner-glow::after, .inner-glow-top::after {
   content: "";
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;

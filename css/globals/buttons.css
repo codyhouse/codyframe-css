@@ -25,7 +25,7 @@
 .btn:focus-visible {
   outline: none;
   box-shadow: 0 0 0 2px var(--color-bg), 
-              0 0 0 4px alpha(var(--color-contrast-higher), 0.15);
+              0 0 0 4px hsla(var(--color-contrast-higher-hsl), 0.15);
 }
 
 .btn:active {
