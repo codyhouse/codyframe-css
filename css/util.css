@@ -645,6 +645,9 @@
 /* media wrapper */
 :where([class^="media-wrapper"], [class*=" media-wrapper"]) {
   position: relative;
+}
+
+[class^="media-wrapper"], [class*=" media-wrapper"] {
   height: 0;
 }
 
