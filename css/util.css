@@ -592,6 +592,10 @@
   align-items: baseline;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 /* order */
 .order-1 {
   order: 1;
@@ -690,7 +694,7 @@
   display: contents;
 }
 
-.hide, .is-hidden {
+.hide {
   display: none !important;
 }
 
@@ -3845,7 +3849,7 @@
 
 /* print */
 @media print {
-  .print\:is-hidden {
+  .print\:hide {
     display: none !important;
   }
 
@@ -4423,6 +4427,10 @@
 
   .items-baseline\@xs {
     align-items: baseline;
+  }
+
+  .items-stretch\@xs {
+    align-items: stretch;
   }
 
   /* order */
@@ -6548,6 +6556,10 @@
     align-items: baseline;
   }
 
+  .items-stretch\@sm {
+    align-items: stretch;
+  }
+
   /* order */
   .order-1\@sm {
     order: 1;
@@ -8669,6 +8681,10 @@
 
   .items-baseline\@md {
     align-items: baseline;
+  }
+
+  .items-stretch\@md {
+    align-items: stretch;
   }
 
   /* order */
@@ -10794,6 +10810,10 @@
     align-items: baseline;
   }
 
+  .items-stretch\@lg {
+    align-items: stretch;
+  }
+
   /* order */
   .order-1\@lg {
     order: 1;
@@ -12915,6 +12935,10 @@
 
   .items-baseline\@xl {
     align-items: baseline;
+  }
+
+  .items-stretch\@xl {
+    align-items: stretch;
   }
 
   /* order */
