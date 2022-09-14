@@ -1723,20 +1723,6 @@
   width: var(--width);
 }
 
-[class^=size-].btn, [class^=size-].form-control:not(textarea), [class*=" size-"].btn, [class*=" size-"].form-control:not(textarea) {
-  line-height: var(--height);
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-[class^=size-].btn:not(.justify-between, .justify-start, .justify-end), 
-[class*=" size-"].btn:not(.justify-between, .justify-start, .justify-end),
-[class^=width-].btn:not(.justify-between, .justify-start, .justify-end), 
-[class*=" width-"].btn:not(.justify-between, .justify-start, .justify-end) {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 [class^=width-], [class*=" width-"] {
   width: var(--width);
 }
@@ -1745,10 +1731,8 @@
   height: var(--height);
 }
 
-[class^=height-].btn, [class^=height-].form-control:not(textarea), [class*=" height-"].btn, [class*=" height-"].form-control:not(textarea) {
+[class^=size-].btn, [class^=size-].form-control:not(textarea), [class*=" size-"].btn, [class*=" size-"].form-control:not(textarea), [class^=height-].btn, [class^=height-].form-control:not(textarea), [class*=" height-"].btn, [class*=" height-"].form-control:not(textarea) {
   line-height: var(--height);
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .size-8xs, .width-8xs {
