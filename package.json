@@ -1,6 +1,6 @@
 {
   "name": "codyframe-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experimental, CSS-only version of the CodyHouse framework.",
   "main": "index.js",
   "scripts": {
