@@ -1718,157 +1718,140 @@
   --size-5xl: 12rem;    /* 192px */
 }
 
-[class^=size-], [class*=" size-"] {
-  height: var(--height);
-  width: var(--width);
-}
-
-[class^=width-], [class*=" width-"] {
-  width: var(--width);
-}
-
-[class^=height-], [class*=" height-"] {
-  height: var(--height);
-}
-
-[class^=size-].btn, [class^=size-].form-control:not(textarea), [class*=" size-"].btn, [class*=" size-"].form-control:not(textarea), [class^=height-].btn, [class^=height-].form-control:not(textarea), [class*=" height-"].btn, [class*=" height-"].form-control:not(textarea) {
-  line-height: var(--height);
-}
-
 .size-8xs, .width-8xs {
-  --width: var(--size-8xs);
+  width: var(--size-8xs);
 }
 
 .size-8xs, .height-8xs {
-  --height: var(--size-8xs);
+  height: var(--size-8xs);
 }
 
 .size-7xs, .width-7xs {
-  --width: var(--size-7xs);
+  width: var(--size-7xs);
 }
 
 .size-7xs, .height-7xs {
-  --height: var(--size-7xs);
+  height: var(--size-7xs);
 }
 
 .size-6xs, .width-6xs {
-  --width: var(--size-6xs);
+  width: var(--size-6xs);
 }
 
 .size-6xs, .height-6xs {
-  --height: var(--size-6xs);
+  height: var(--size-6xs);
 }
 
 .size-5xs, .width-5xs {
-  --width: var(--size-5xs);
+  width: var(--size-5xs);
 }
 
 .size-5xs, .height-5xs {
-  --height: var(--size-5xs);
+  height: var(--size-5xs);
 }
 
 .size-4xs, .width-4xs {
-  --width: var(--size-4xs);
+  width: var(--size-4xs);
 }
 
 .size-4xs, .height-4xs {
-  --height: var(--size-4xs);
+  height: var(--size-4xs);
 }
 
 .size-3xs, .width-3xs {
-  --width: var(--size-3xs);
+  width: var(--size-3xs);
 }
 
 .size-3xs, .height-3xs {
-  --height: var(--size-3xs);
+  height: var(--size-3xs);
 }
 
 .size-2xs, .width-2xs {
-  --width: var(--size-2xs);
+  width: var(--size-2xs);
 }
 
 .size-2xs, .height-2xs {
-  --height: var(--size-2xs);
+  height: var(--size-2xs);
 }
 
 .size-xs, .width-xs {
-  --width: var(--size-xs);
+  width: var(--size-xs);
 }
 
 .size-xs, .height-xs {
-  --height: var(--size-xs);
+  height: var(--size-xs);
 }
 
 .size-sm, .width-sm {
-  --width: var(--size-sm);
+  width: var(--size-sm);
 }
 
 .size-sm, .height-sm {
-  --height: var(--size-sm);
+  height: var(--size-sm);
 }
 
 .size-md, .width-md {
-  --width: var(--size-md);
+  width: var(--size-md);
 }
 
 .size-md, .height-md {
-  --height: var(--size-md);
+  height: var(--size-md);
 }
 
 .size-lg, .width-lg {
-  --width: var(--size-lg);
+  width: var(--size-lg);
 }
 
 .size-lg, .height-lg {
-  --height: var(--size-lg);
+  height: var(--size-lg);
 }
 
 .size-xl, .width-xl {
-  --width: var(--size-xl);
+  width: var(--size-xl);
 }
 
 .size-xl, .height-xl {
-  --height: var(--size-xl);
+  height: var(--size-xl);
 }
 
 .size-2xl, .width-2xl {
-  --width: var(--size-2xl);
+  width: var(--size-2xl);
 }
 
 .size-2xl, .height-2xl {
-  --height: var(--size-2xl);
+  height: var(--size-2xl);
 }
 
 .size-3xl, .width-3xl {
-  --width: var(--size-3xl);
+  width: var(--size-3xl);
 }
 
 .size-3xl, .height-3xl {
-  --height: var(--size-3xl);
+  height: var(--size-3xl);
 }
 
 .size-4xl, .width-4xl {
-  --width: var(--size-4xl);
+  width: var(--size-4xl);
 }
 
 .size-4xl, .height-4xl {
-  --height: var(--size-4xl);
+  height: var(--size-4xl);
 }
 
 .size-5xl, .width-5xl {
-  --width: var(--size-5xl);
+  width: var(--size-5xl);
 }
 
 .size-5xl, .height-5xl {
-  --height: var(--size-5xl);
+  height: var(--size-5xl);
 }
 
 .size-0, .width-0 {
-  --width: 0;
+  width: 0;
 }
 
 .size-0, .height-0 {
-  --height: 0;
+  height: 0;
 }
 
 .size-inherit, .width-inherit {
@@ -4210,139 +4193,139 @@
 
   /* size */
   .size-8xs\@sm, .width-8xs\@sm {
-    --width: var(--size-8xs);
+    width: var(--size-8xs);
   }
 
   .size-8xs\@sm, .height-8xs\@sm {
-    --height: var(--size-8xs);
+    height: var(--size-8xs);
   }
 
   .size-7xs\@sm, .width-7xs\@sm {
-    --width: var(--size-7xs);
+    width: var(--size-7xs);
   }
 
   .size-7xs\@sm, .height-7xs\@sm {
-    --height: var(--size-7xs);
+    height: var(--size-7xs);
   }
 
   .size-6xs\@sm, .width-6xs\@sm {
-    --width: var(--size-6xs);
+    width: var(--size-6xs);
   }
 
   .size-6xs\@sm, .height-6xs\@sm {
-    --height: var(--size-6xs);
+    height: var(--size-6xs);
   }
 
   .size-5xs\@sm, .width-5xs\@sm {
-    --width: var(--size-5xs);
+    width: var(--size-5xs);
   }
 
   .size-5xs\@sm, .height-5xs\@sm {
-    --height: var(--size-5xs);
+    height: var(--size-5xs);
   }
 
   .size-4xs\@sm, .width-4xs\@sm {
-    --width: var(--size-4xs);
+    width: var(--size-4xs);
   }
 
   .size-4xs\@sm, .height-4xs\@sm {
-    --height: var(--size-4xs);
+    height: var(--size-4xs);
   }
 
   .size-3xs\@sm, .width-3xs\@sm {
-    --width: var(--size-3xs);
+    width: var(--size-3xs);
   }
 
   .size-3xs\@sm, .height-3xs\@sm {
-    --height: var(--size-3xs);
+    height: var(--size-3xs);
   }
 
   .size-2xs\@sm, .width-2xs\@sm {
-    --width: var(--size-2xs);
+    width: var(--size-2xs);
   }
 
   .size-2xs\@sm, .height-2xs\@sm {
-    --height: var(--size-2xs);
+    height: var(--size-2xs);
   }
 
   .size-xs\@sm, .width-xs\@sm {
-    --width: var(--size-xs);
+    width: var(--size-xs);
   }
 
   .size-xs\@sm, .height-xs\@sm {
-    --height: var(--size-xs);
+    height: var(--size-xs);
   }
 
   .size-sm\@sm, .width-sm\@sm {
-    --width: var(--size-sm);
+    width: var(--size-sm);
   }
 
   .size-sm\@sm, .height-sm\@sm {
-    --height: var(--size-sm);
+    height: var(--size-sm);
   }
 
   .size-md\@sm, .width-md\@sm {
-    --width: var(--size-md);
+    width: var(--size-md);
   }
 
   .size-md\@sm, .height-md\@sm {
-    --height: var(--size-md);
+    height: var(--size-md);
   }
 
   .size-lg\@sm, .width-lg\@sm {
-    --width: var(--size-lg);
+    width: var(--size-lg);
   }
 
   .size-lg\@sm, .height-lg\@sm {
-    --height: var(--size-lg);
+    height: var(--size-lg);
   }
 
   .size-xl\@sm, .width-xl\@sm {
-    --width: var(--size-xl);
+    width: var(--size-xl);
   }
 
   .size-xl\@sm, .height-xl\@sm {
-    --height: var(--size-xl);
+    height: var(--size-xl);
   }
 
   .size-2xl\@sm, .width-2xl\@sm {
-    --width: var(--size-2xl);
+    width: var(--size-2xl);
   }
 
   .size-2xl\@sm, .height-2xl\@sm {
-    --height: var(--size-2xl);
+    height: var(--size-2xl);
   }
 
   .size-3xl\@sm, .width-3xl\@sm {
-    --width: var(--size-3xl);
+    width: var(--size-3xl);
   }
 
   .size-3xl\@sm, .height-3xl\@sm {
-    --height: var(--size-3xl);
+    height: var(--size-3xl);
   }
 
   .size-4xl\@sm, .width-4xl\@sm {
-    --width: var(--size-4xl);
+    width: var(--size-4xl);
   }
 
   .size-4xl\@sm, .height-4xl\@sm {
-    --height: var(--size-4xl);
+    height: var(--size-4xl);
   }
 
   .size-5xl\@sm, .width-5xl\@sm {
-    --width: var(--size-5xl);
+    width: var(--size-5xl);
   }
 
   .size-5xl\@sm, .height-5xl\@sm {
-    --height: var(--size-5xl);
+    height: var(--size-5xl);
   }
 
   .size-0\@sm, .width-0\@sm {
-    --width: 0;
+    width: 0;
   }
 
   .size-0\@sm, .height-0\@sm {
-    --height: 0;
+    height: 0;
   }
 
   .size-inherit\@sm, .width-inherit\@sm {
@@ -5703,139 +5686,139 @@
 
   /* size */
   .size-8xs\@md, .width-8xs\@md {
-    --width: var(--size-8xs);
+    width: var(--size-8xs);
   }
 
   .size-8xs\@md, .height-8xs\@md {
-    --height: var(--size-8xs);
+    height: var(--size-8xs);
   }
 
   .size-7xs\@md, .width-7xs\@md {
-    --width: var(--size-7xs);
+    width: var(--size-7xs);
   }
 
   .size-7xs\@md, .height-7xs\@md {
-    --height: var(--size-7xs);
+    height: var(--size-7xs);
   }
 
   .size-6xs\@md, .width-6xs\@md {
-    --width: var(--size-6xs);
+    width: var(--size-6xs);
   }
 
   .size-6xs\@md, .height-6xs\@md {
-    --height: var(--size-6xs);
+    height: var(--size-6xs);
   }
 
   .size-5xs\@md, .width-5xs\@md {
-    --width: var(--size-5xs);
+    width: var(--size-5xs);
   }
 
   .size-5xs\@md, .height-5xs\@md {
-    --height: var(--size-5xs);
+    height: var(--size-5xs);
   }
 
   .size-4xs\@md, .width-4xs\@md {
-    --width: var(--size-4xs);
+    width: var(--size-4xs);
   }
 
   .size-4xs\@md, .height-4xs\@md {
-    --height: var(--size-4xs);
+    height: var(--size-4xs);
   }
 
   .size-3xs\@md, .width-3xs\@md {
-    --width: var(--size-3xs);
+    width: var(--size-3xs);
   }
 
   .size-3xs\@md, .height-3xs\@md {
-    --height: var(--size-3xs);
+    height: var(--size-3xs);
   }
 
   .size-2xs\@md, .width-2xs\@md {
-    --width: var(--size-2xs);
+    width: var(--size-2xs);
   }
 
   .size-2xs\@md, .height-2xs\@md {
-    --height: var(--size-2xs);
+    height: var(--size-2xs);
   }
 
   .size-xs\@md, .width-xs\@md {
-    --width: var(--size-xs);
+    width: var(--size-xs);
   }
 
   .size-xs\@md, .height-xs\@md {
-    --height: var(--size-xs);
+    height: var(--size-xs);
   }
 
   .size-sm\@md, .width-sm\@md {
-    --width: var(--size-sm);
+    width: var(--size-sm);
   }
 
   .size-sm\@md, .height-sm\@md {
-    --height: var(--size-sm);
+    height: var(--size-sm);
   }
 
   .size-md\@md, .width-md\@md {
-    --width: var(--size-md);
+    width: var(--size-md);
   }
 
   .size-md\@md, .height-md\@md {
-    --height: var(--size-md);
+    height: var(--size-md);
   }
 
   .size-lg\@md, .width-lg\@md {
-    --width: var(--size-lg);
+    width: var(--size-lg);
   }
 
   .size-lg\@md, .height-lg\@md {
-    --height: var(--size-lg);
+    height: var(--size-lg);
   }
 
   .size-xl\@md, .width-xl\@md {
-    --width: var(--size-xl);
+    width: var(--size-xl);
   }
 
   .size-xl\@md, .height-xl\@md {
-    --height: var(--size-xl);
+    height: var(--size-xl);
   }
 
   .size-2xl\@md, .width-2xl\@md {
-    --width: var(--size-2xl);
+    width: var(--size-2xl);
   }
 
   .size-2xl\@md, .height-2xl\@md {
-    --height: var(--size-2xl);
+    height: var(--size-2xl);
   }
 
   .size-3xl\@md, .width-3xl\@md {
-    --width: var(--size-3xl);
+    width: var(--size-3xl);
   }
 
   .size-3xl\@md, .height-3xl\@md {
-    --height: var(--size-3xl);
+    height: var(--size-3xl);
   }
 
   .size-4xl\@md, .width-4xl\@md {
-    --width: var(--size-4xl);
+    width: var(--size-4xl);
   }
 
   .size-4xl\@md, .height-4xl\@md {
-    --height: var(--size-4xl);
+    height: var(--size-4xl);
   }
 
   .size-5xl\@md, .width-5xl\@md {
-    --width: var(--size-5xl);
+    width: var(--size-5xl);
   }
 
   .size-5xl\@md, .height-5xl\@md {
-    --height: var(--size-5xl);
+    height: var(--size-5xl);
   }
 
   .size-0\@md, .width-0\@md {
-    --width: 0;
+    width: 0;
   }
 
   .size-0\@md, .height-0\@md {
-    --height: 0;
+    height: 0;
   }
 
   .size-inherit\@md, .width-inherit\@md {
@@ -7196,139 +7179,139 @@
 
   /* size */
   .size-8xs\@lg, .width-8xs\@lg {
-    --width: var(--size-8xs);
+    width: var(--size-8xs);
   }
 
   .size-8xs\@lg, .height-8xs\@lg {
-    --height: var(--size-8xs);
+    height: var(--size-8xs);
   }
 
   .size-7xs\@lg, .width-7xs\@lg {
-    --width: var(--size-7xs);
+    width: var(--size-7xs);
   }
 
   .size-7xs\@lg, .height-7xs\@lg {
-    --height: var(--size-7xs);
+    height: var(--size-7xs);
   }
 
   .size-6xs\@lg, .width-6xs\@lg {
-    --width: var(--size-6xs);
+    width: var(--size-6xs);
   }
 
   .size-6xs\@lg, .height-6xs\@lg {
-    --height: var(--size-6xs);
+    height: var(--size-6xs);
   }
 
   .size-5xs\@lg, .width-5xs\@lg {
-    --width: var(--size-5xs);
+    width: var(--size-5xs);
   }
 
   .size-5xs\@lg, .height-5xs\@lg {
-    --height: var(--size-5xs);
+    height: var(--size-5xs);
   }
 
   .size-4xs\@lg, .width-4xs\@lg {
-    --width: var(--size-4xs);
+    width: var(--size-4xs);
   }
 
   .size-4xs\@lg, .height-4xs\@lg {
-    --height: var(--size-4xs);
+    height: var(--size-4xs);
   }
 
   .size-3xs\@lg, .width-3xs\@lg {
-    --width: var(--size-3xs);
+    width: var(--size-3xs);
   }
 
   .size-3xs\@lg, .height-3xs\@lg {
-    --height: var(--size-3xs);
+    height: var(--size-3xs);
   }
 
   .size-2xs\@lg, .width-2xs\@lg {
-    --width: var(--size-2xs);
+    width: var(--size-2xs);
   }
 
   .size-2xs\@lg, .height-2xs\@lg {
-    --height: var(--size-2xs);
+    height: var(--size-2xs);
   }
 
   .size-xs\@lg, .width-xs\@lg {
-    --width: var(--size-xs);
+    width: var(--size-xs);
   }
 
   .size-xs\@lg, .height-xs\@lg {
-    --height: var(--size-xs);
+    height: var(--size-xs);
   }
 
   .size-sm\@lg, .width-sm\@lg {
-    --width: var(--size-sm);
+    width: var(--size-sm);
   }
 
   .size-sm\@lg, .height-sm\@lg {
-    --height: var(--size-sm);
+    height: var(--size-sm);
   }
 
   .size-md\@lg, .width-md\@lg {
-    --width: var(--size-md);
+    width: var(--size-md);
   }
 
   .size-md\@lg, .height-md\@lg {
-    --height: var(--size-md);
+    height: var(--size-md);
   }
 
   .size-lg\@lg, .width-lg\@lg {
-    --width: var(--size-lg);
+    width: var(--size-lg);
   }
 
   .size-lg\@lg, .height-lg\@lg {
-    --height: var(--size-lg);
+    height: var(--size-lg);
   }
 
   .size-xl\@lg, .width-xl\@lg {
-    --width: var(--size-xl);
+    width: var(--size-xl);
   }
 
   .size-xl\@lg, .height-xl\@lg {
-    --height: var(--size-xl);
+    height: var(--size-xl);
   }
 
   .size-2xl\@lg, .width-2xl\@lg {
-    --width: var(--size-2xl);
+    width: var(--size-2xl);
   }
 
   .size-2xl\@lg, .height-2xl\@lg {
-    --height: var(--size-2xl);
+    height: var(--size-2xl);
   }
 
   .size-3xl\@lg, .width-3xl\@lg {
-    --width: var(--size-3xl);
+    width: var(--size-3xl);
   }
 
   .size-3xl\@lg, .height-3xl\@lg {
-    --height: var(--size-3xl);
+    height: var(--size-3xl);
   }
 
   .size-4xl\@lg, .width-4xl\@lg {
-    --width: var(--size-4xl);
+    width: var(--size-4xl);
   }
 
   .size-4xl\@lg, .height-4xl\@lg {
-    --height: var(--size-4xl);
+    height: var(--size-4xl);
   }
 
   .size-5xl\@lg, .width-5xl\@lg {
-    --width: var(--size-5xl);
+    width: var(--size-5xl);
   }
 
   .size-5xl\@lg, .height-5xl\@lg {
-    --height: var(--size-5xl);
+    height: var(--size-5xl);
   }
 
   .size-0\@lg, .width-0\@lg {
-    --width: 0;
+    width: 0;
   }
 
   .size-0\@lg, .height-0\@lg {
-    --height: 0;
+    height: 0;
   }
 
   .size-inherit\@lg, .width-inherit\@lg {
