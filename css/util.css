@@ -1,6 +1,7 @@
 /* grid */
 .grid {
   display: grid;
+  grid-auto-rows: min-content;
 }
 
 .grid > * {
@@ -1920,7 +1921,7 @@
   --max-width-sm: 48rem;  /* 768px */
   --max-width-md: 64rem;  /* 1024px */
   --max-width-lg: 80rem;  /* 1280px */
-  --max-width-xl: 96rem;  /* 1536px */
+  --max-width-xl: 90rem;  /* 1440px */
 }
 
 .container {
@@ -1983,24 +1984,48 @@
 }
 
 /* box-shadow */
+.shadow-ring {
+  box-shadow: var(--shadow-ring);
+}
+
 .shadow-xs {
   box-shadow: var(--shadow-xs);
+}
+
+.shadow-xs.shadow-ring {
+  box-shadow: var(--shadow-xs), var(--shadow-ring);
 }
 
 .shadow-sm {
   box-shadow: var(--shadow-sm);
 }
 
+.shadow-sm.shadow-ring {
+  box-shadow: var(--shadow-sm), var(--shadow-ring);
+}
+
 .shadow-md {
   box-shadow: var(--shadow-md);
+}
+
+.shadow-md.shadow-ring {
+  box-shadow: var(--shadow-md), var(--shadow-ring);
 }
 
 .shadow-lg {
   box-shadow: var(--shadow-lg);
 }
 
+.shadow-lg.shadow-ring {
+  box-shadow: var(--shadow-lg), var(--shadow-ring);
+}
+
 .shadow-xl {
   box-shadow: var(--shadow-xl);
+}
+
+.shadow-xl.shadow-ring {
+  box-shadow: var(--shadow-xl), var(--shadow-ring);
 }
 
 .shadow-none {
@@ -2991,6 +3016,7 @@
   /* grid */
   .grid\@sm {
     display: grid;
+    grid-auto-rows: min-content;
   }
 
   .grid\@sm > * {
@@ -4484,6 +4510,7 @@
   /* grid */
   .grid\@md {
     display: grid;
+    grid-auto-rows: min-content;
   }
 
   .grid\@md > * {
@@ -5977,6 +6004,7 @@
   /* grid */
   .grid\@lg {
     display: grid;
+    grid-auto-rows: min-content;
   }
 
   .grid\@lg > * {

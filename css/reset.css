@@ -21,7 +21,7 @@ blockquote, q {
   quotes: none;
 }
 
-button, input, textarea, select, .link, .reset {
+button, input, textarea, select, .reset {
   background-color: transparent;
   border-radius: 0;
   color: inherit;
@@ -29,7 +29,7 @@ button, input, textarea, select, .link, .reset {
   appearance: none;
 }
 
-a, .link {
+a {
   color: var(--color-primary);
 }
 

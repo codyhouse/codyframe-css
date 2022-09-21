@@ -5,6 +5,8 @@
   --radius-lg: calc(var(--radius-md)*2);
 
   /* box shadow */
+  --shadow-ring: 0 0 0 1px hsla(var(--color-black-hsl), 0.065);
+  
   --shadow-xs:  0 0 0 1px hsla(var(--color-black-hsl), 0.02), 
                 0 1px 3px -1px hsla(var(--color-black-hsl), 0.2);
   --shadow-sm:  0 0.3px 0.4px hsla(var(--color-black-hsl), 0.025),
