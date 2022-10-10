@@ -1954,22 +1954,6 @@
   max-width: var(--max-width-xl);
 }
 
-.max-width-fluid-sm {
-  max-width: clamp(var(--max-width-xs), 75%, var(--max-width-sm));
-}
-
-.max-width-fluid-md {
-  max-width: clamp(var(--max-width-xs), 75%, var(--max-width-md));
-}
-
-.max-width-fluid-lg {
-  max-width: clamp(var(--max-width-xs), 75%, var(--max-width-lg));
-}
-
-.max-width-fluid-xl {
-  max-width: clamp(var(--max-width-xs), 75%, var(--max-width-xl));
-}
-
 .max-width-100\% {
   max-width: 100%;
 }
