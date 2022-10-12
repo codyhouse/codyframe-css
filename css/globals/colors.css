@@ -184,8 +184,4 @@
   --color-contrast-high: hsl(var(--color-contrast-high-hsl));
   --color-contrast-higher-hsl: 240, 100%, 99%;
   --color-contrast-higher: hsl(var(--color-contrast-higher-hsl));
-
-  /* font rendering */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
