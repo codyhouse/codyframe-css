@@ -15,8 +15,6 @@
   cursor: pointer;
   text-decoration: none;
   line-height: 1.2;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
   transition: 0.2s;
   will-change: transform;

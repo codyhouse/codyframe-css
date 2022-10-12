@@ -18,6 +18,11 @@
   --text-4xl:  3.75rem;   /* 60px */
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   color: var(--color-contrast-high);
   font-family: var(--font-primary);

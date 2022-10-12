@@ -1478,7 +1478,7 @@
 
 /* color */
 [class^="color-"], [class*=" color-"] { 
-  --color-alpha: 1; 
+  --color-opacity: 1; 
 }
 
 .color-inherit {
@@ -1486,215 +1486,215 @@
 }
 
 .color-bg-darker {
-  color: hsla(var(--color-bg-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-bg-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-bg-dark {
-  color: hsla(var(--color-bg-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-bg-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-bg {
-  color: hsla(var(--color-bg-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-bg-hsl), var(--color-opacity, 1));
 }
 
 .color-bg-light {
-  color: hsla(var(--color-bg-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-bg-light-hsl), var(--color-opacity, 1));
 }
 
 .color-bg-lighter {
-  color: hsla(var(--color-bg-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-bg-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-contrast-lower {
-  color: hsla(var(--color-contrast-lower-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-contrast-lower-hsl), var(--color-opacity, 1));
 }
 
 .color-contrast-low {
-  color: hsla(var(--color-contrast-low-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-contrast-low-hsl), var(--color-opacity, 1));
 }
 
 .color-contrast-medium {
-  color: hsla(var(--color-contrast-medium-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-contrast-medium-hsl), var(--color-opacity, 1));
 }
 
 .color-contrast-high {
-  color: hsla(var(--color-contrast-high-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-contrast-high-hsl), var(--color-opacity, 1));
 }
 
 .color-contrast-higher {
-  color: hsla(var(--color-contrast-higher-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-contrast-higher-hsl), var(--color-opacity, 1));
 }
 
 .color-primary-darker {
-  color: hsla(var(--color-primary-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-primary-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-primary-dark {
-  color: hsla(var(--color-primary-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-primary-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-primary {
-  color: hsla(var(--color-primary-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-primary-hsl), var(--color-opacity, 1));
 }
 
 .color-primary-light {
-  color: hsla(var(--color-primary-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-primary-light-hsl), var(--color-opacity, 1));
 }
 
 .color-primary-lighter {
-  color: hsla(var(--color-primary-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-primary-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-accent-darker {
-  color: hsla(var(--color-accent-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-accent-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-accent-dark {
-  color: hsla(var(--color-accent-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-accent-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-accent {
-  color: hsla(var(--color-accent-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-accent-hsl), var(--color-opacity, 1));
 }
 
 .color-accent-light {
-  color: hsla(var(--color-accent-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-accent-light-hsl), var(--color-opacity, 1));
 }
 
 .color-accent-lighter {
-  color: hsla(var(--color-accent-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-accent-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-success-darker {
-  color: hsla(var(--color-success-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-success-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-success-dark {
-  color: hsla(var(--color-success-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-success-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-success {
-  color: hsla(var(--color-success-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-success-hsl), var(--color-opacity, 1));
 }
 
 .color-success-light {
-  color: hsla(var(--color-success-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-success-light-hsl), var(--color-opacity, 1));
 }
 
 .color-success-lighter {
-  color: hsla(var(--color-success-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-success-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-warning-darker {
-  color: hsla(var(--color-warning-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-warning-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-warning-dark {
-  color: hsla(var(--color-warning-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-warning-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-warning {
-  color: hsla(var(--color-warning-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-warning-hsl), var(--color-opacity, 1));
 }
 
 .color-warning-light {
-  color: hsla(var(--color-warning-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-warning-light-hsl), var(--color-opacity, 1));
 }
 
 .color-warning-lighter {
-  color: hsla(var(--color-warning-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-warning-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-error-darker {
-  color: hsla(var(--color-error-darker-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-error-darker-hsl), var(--color-opacity, 1));
 }
 
 .color-error-dark {
-  color: hsla(var(--color-error-dark-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-error-dark-hsl), var(--color-opacity, 1));
 }
 
 .color-error {
-  color: hsla(var(--color-error-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-error-hsl), var(--color-opacity, 1));
 }
 
 .color-error-light {
-  color: hsla(var(--color-error-light-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-error-light-hsl), var(--color-opacity, 1));
 }
 
 .color-error-lighter {
-  color: hsla(var(--color-error-lighter-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-error-lighter-hsl), var(--color-opacity, 1));
 }
 
 .color-white {
-  color: hsla(var(--color-white-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-white-hsl), var(--color-opacity, 1));
 }
 
 .color-black {
-  color: hsla(var(--color-black-hsl), var(--color-alpha, 1));
+  color: hsla(var(--color-black-hsl), var(--color-opacity, 1));
 }
 
 .color-opacity-0 { 
-  --color-alpha: 0; 
+  --color-opacity: 0; 
 }
 
 .color-opacity-5\% { 
-  --color-alpha: 0.05; 
+  --color-opacity: 0.05; 
 }
 
 .color-opacity-10\% { 
-  --color-alpha: 0.1; 
+  --color-opacity: 0.1; 
 }
 
 .color-opacity-15\% { 
-  --color-alpha: 0.15; 
+  --color-opacity: 0.15; 
 }
 
 .color-opacity-20\% { 
-  --color-alpha: 0.2; 
+  --color-opacity: 0.2; 
 }
 
 .color-opacity-25\% { 
-  --color-alpha: 0.25; 
+  --color-opacity: 0.25; 
 }
 
 .color-opacity-30\% { 
-  --color-alpha: 0.3; 
+  --color-opacity: 0.3; 
 }
 
 .color-opacity-40\% { 
-  --color-alpha: 0.4; 
+  --color-opacity: 0.4; 
 }
 
 .color-opacity-50\% { 
-  --color-alpha: 0.5; 
+  --color-opacity: 0.5; 
 }
 
 .color-opacity-60\% { 
-  --color-alpha: 0.6; 
+  --color-opacity: 0.6; 
 }
 
 .color-opacity-70\% { 
-  --color-alpha: 0.7; 
+  --color-opacity: 0.7; 
 }
 
 .color-opacity-75\% { 
-  --color-alpha: 0.75; 
+  --color-opacity: 0.75; 
 }
 
 .color-opacity-80\% { 
-  --color-alpha: 0.8; 
+  --color-opacity: 0.8; 
 }
 
 .color-opacity-85\% { 
-  --color-alpha: 0.85; 
+  --color-opacity: 0.85; 
 }
 
 .color-opacity-90\% { 
-  --color-alpha: 0.9; 
+  --color-opacity: 0.9; 
 }
 
 .color-opacity-95\% { 
-  --color-alpha: 0.95;
+  --color-opacity: 0.95;
 }
 
 /* gradients */
@@ -2246,23 +2246,23 @@
 
 /* border */
 .border {
-  border: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), 0.1);
+  border: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), var(--border-opacity-base, 0.1));
 }
 
 .border-top {
-  border-top: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), 0.1);
+  border-top: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), var(--border-opacity-base, 0.1));
 }
 
 .border-bottom {
-  border-bottom: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), 0.1);
+  border-bottom: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), var(--border-opacity-base, 0.1));
 }
 
 .border-left {
-  border-left: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), 0.1);
+  border-left: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), var(--border-opacity-base, 0.1));
 }
 
 .border-right {
-  border-right: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), 0.1);
+  border-right: var(--border-width, 1px) var(--border-style, solid) hsla(var(--color-contrast-higher-hsl), var(--border-opacity-base, 0.1));
 }
 
 .border-2 {
@@ -2286,219 +2286,219 @@
 }
 
 [class^="border-"], [class*=" border-"] { 
-  --border-alpha: 1;
+  --border-opacity: 1;
 }
 
 .border-bg-darker {
-  border-color: hsla(var(--color-bg-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-bg-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-bg-dark {
-  border-color: hsla(var(--color-bg-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-bg-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-bg {
-  border-color: hsla(var(--color-bg-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-bg-hsl), var(--border-opacity, 1));
 }
 
 .border-bg-light {
-  border-color: hsla(var(--color-bg-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-bg-light-hsl), var(--border-opacity, 1));
 }
 
 .border-bg-lighter {
-  border-color: hsla(var(--color-bg-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-bg-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-contrast-lower {
-  border-color: hsla(var(--color-contrast-lower-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-contrast-lower-hsl), var(--border-opacity, 1));
 }
 
 .border-contrast-low {
-  border-color: hsla(var(--color-contrast-low-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-contrast-low-hsl), var(--border-opacity, 1));
 }
 
 .border-contrast-medium {
-  border-color: hsla(var(--color-contrast-medium-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-contrast-medium-hsl), var(--border-opacity, 1));
 }
 
 .border-contrast-high {
-  border-color: hsla(var(--color-contrast-high-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-contrast-high-hsl), var(--border-opacity, 1));
 }
 
 .border-contrast-higher {
-  border-color: hsla(var(--color-contrast-higher-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-contrast-higher-hsl), var(--border-opacity, 1));
 }
 
 .border-primary-darker {
-  border-color: hsla(var(--color-primary-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-primary-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-primary-dark {
-  border-color: hsla(var(--color-primary-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-primary-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-primary {
-  border-color: hsla(var(--color-primary-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-primary-hsl), var(--border-opacity, 1));
 }
 
 .border-primary-light {
-  border-color: hsla(var(--color-primary-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-primary-light-hsl), var(--border-opacity, 1));
 }
 
 .border-primary-lighter {
-  border-color: hsla(var(--color-primary-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-primary-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-accent-darker {
-  border-color: hsla(var(--color-accent-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-accent-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-accent-dark {
-  border-color: hsla(var(--color-accent-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-accent-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-accent {
-  border-color: hsla(var(--color-accent-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-accent-hsl), var(--border-opacity, 1));
 }
 
 .border-accent-light {
-  border-color: hsla(var(--color-accent-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-accent-light-hsl), var(--border-opacity, 1));
 }
 
 .border-accent-lighter {
-  border-color: hsla(var(--color-accent-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-accent-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-success-darker {
-  border-color: hsla(var(--color-success-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-success-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-success-dark {
-  border-color: hsla(var(--color-success-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-success-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-success {
-  border-color: hsla(var(--color-success-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-success-hsl), var(--border-opacity, 1));
 }
 
 .border-success-light {
-  border-color: hsla(var(--color-success-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-success-light-hsl), var(--border-opacity, 1));
 }
 
 .border-success-lighter {
-  border-color: hsla(var(--color-success-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-success-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-warning-darker {
-  border-color: hsla(var(--color-warning-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-warning-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-warning-dark {
-  border-color: hsla(var(--color-warning-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-warning-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-warning {
-  border-color: hsla(var(--color-warning-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-warning-hsl), var(--border-opacity, 1));
 }
 
 .border-warning-light {
-  border-color: hsla(var(--color-warning-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-warning-light-hsl), var(--border-opacity, 1));
 }
 
 .border-warning-lighter {
-  border-color: hsla(var(--color-warning-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-warning-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-error-darker {
-  border-color: hsla(var(--color-error-darker-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-error-darker-hsl), var(--border-opacity, 1));
 }
 
 .border-error-dark {
-  border-color: hsla(var(--color-error-dark-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-error-dark-hsl), var(--border-opacity, 1));
 }
 
 .border-error {
-  border-color: hsla(var(--color-error-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-error-hsl), var(--border-opacity, 1));
 }
 
 .border-error-light {
-  border-color: hsla(var(--color-error-light-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-error-light-hsl), var(--border-opacity, 1));
 }
 
 .border-error-lighter {
-  border-color: hsla(var(--color-error-lighter-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-error-lighter-hsl), var(--border-opacity, 1));
 }
 
 .border-white {
-  border-color: hsla(var(--color-white-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-white-hsl), var(--border-opacity, 1));
 }
 
 .border-black {
-  border-color: hsla(var(--color-black-hsl), var(--border-alpha, 1));
+  border-color: hsla(var(--color-black-hsl), var(--border-opacity, 1));
 }
 
 .border-opacity-0 {
-  --border-alpha: 0;
+  --border-opacity: 0;
 }
 
 .border-opacity-5\% {
-  --border-alpha: 0.05;
+  --border-opacity: 0.05;
 }
 
 .border-opacity-10\% {
-  --border-alpha: 0.1;
+  --border-opacity: 0.1;
 }
 
 .border-opacity-15\% {
-  --border-alpha: 0.15;
+  --border-opacity: 0.15;
 }
 
 .border-opacity-20\% {
-  --border-alpha: 0.2;
+  --border-opacity: 0.2;
 }
 
 .border-opacity-25\% {
-  --border-alpha: 0.25;
+  --border-opacity: 0.25;
 }
 
 .border-opacity-30\% {
-  --border-alpha: 0.3;
+  --border-opacity: 0.3;
 }
 
 .border-opacity-40\% {
-  --border-alpha: 0.4;
+  --border-opacity: 0.4;
 }
 
 .border-opacity-50\% {
-  --border-alpha: 0.5;
+  --border-opacity: 0.5;
 }
 
 .border-opacity-60\% {
-  --border-alpha: 0.6;
+  --border-opacity: 0.6;
 }
 
 .border-opacity-70\% {
-  --border-alpha: 0.7;
+  --border-opacity: 0.7;
 }
 
 .border-opacity-75\% {
-  --border-alpha: 0.75;
+  --border-opacity: 0.75;
 }
 
 .border-opacity-80\% {
-  --border-alpha: 0.8;
+  --border-opacity: 0.8;
 }
 
 .border-opacity-85\% {
-  --border-alpha: 0.85;
+  --border-opacity: 0.85;
 }
 
 .border-opacity-90\% {
-  --border-alpha: 0.9;
+  --border-opacity: 0.9;
 }
 
 .border-opacity-95\% {
-  --border-alpha: 0.95;
+  --border-opacity: 0.95;
 }
 
 /* border-radius */
@@ -2548,7 +2548,7 @@
 
 /* background */
 .bg, [class^="bg-"], [class*=" bg-"] {
-  --bg-alpha: 1;
+  --bg-opacity: 1;
 }
 
 .bg-transparent {
@@ -2560,215 +2560,215 @@
 }
 
 .bg-darker {
-  background-color: hsla(var(--color-bg-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-bg-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-dark {
-  background-color: hsla(var(--color-bg-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-bg-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg {
-  background-color: hsla(var(--color-bg-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-bg-hsl), var(--bg-opacity, 1));
 }
 
 .bg-light {
-  background-color: hsla(var(--color-bg-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-bg-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-lighter {
-  background-color: hsla(var(--color-bg-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-bg-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-contrast-lower {
-  background-color: hsla(var(--color-contrast-lower-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-contrast-lower-hsl), var(--bg-opacity, 1));
 }
 
 .bg-contrast-low {
-  background-color: hsla(var(--color-contrast-low-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-contrast-low-hsl), var(--bg-opacity, 1));
 }
 
 .bg-contrast-medium {
-  background-color: hsla(var(--color-contrast-medium-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-contrast-medium-hsl), var(--bg-opacity, 1));
 }
 
 .bg-contrast-high {
-  background-color: hsla(var(--color-contrast-high-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-contrast-high-hsl), var(--bg-opacity, 1));
 }
 
 .bg-contrast-higher {
-  background-color: hsla(var(--color-contrast-higher-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-contrast-higher-hsl), var(--bg-opacity, 1));
 }
 
 .bg-primary-darker {
-  background-color: hsla(var(--color-primary-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-primary-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-primary-dark {
-  background-color: hsla(var(--color-primary-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-primary-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg-primary {
-  background-color: hsla(var(--color-primary-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-primary-hsl), var(--bg-opacity, 1));
 }
 
 .bg-primary-light {
-  background-color: hsla(var(--color-primary-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-primary-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-primary-lighter {
-  background-color: hsla(var(--color-primary-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-primary-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-accent-darker {
-  background-color: hsla(var(--color-accent-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-accent-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-accent-dark {
-  background-color: hsla(var(--color-accent-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-accent-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg-accent {
-  background-color: hsla(var(--color-accent-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-accent-hsl), var(--bg-opacity, 1));
 }
 
 .bg-accent-light {
-  background-color: hsla(var(--color-accent-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-accent-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-accent-lighter {
-  background-color: hsla(var(--color-accent-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-accent-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-success-darker {
-  background-color: hsla(var(--color-success-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-success-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-success-dark {
-  background-color: hsla(var(--color-success-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-success-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg-success {
-  background-color: hsla(var(--color-success-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-success-hsl), var(--bg-opacity, 1));
 }
 
 .bg-success-light {
-  background-color: hsla(var(--color-success-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-success-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-success-lighter {
-  background-color: hsla(var(--color-success-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-success-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-warning-darker {
-  background-color: hsla(var(--color-warning-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-warning-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-warning-dark {
-  background-color: hsla(var(--color-warning-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-warning-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg-warning {
-  background-color: hsla(var(--color-warning-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-warning-hsl), var(--bg-opacity, 1));
 }
 
 .bg-warning-light {
-  background-color: hsla(var(--color-warning-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-warning-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-warning-lighter {
-  background-color: hsla(var(--color-warning-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-warning-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-error-darker {
-  background-color: hsla(var(--color-error-darker-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-error-darker-hsl), var(--bg-opacity, 1));
 }
 
 .bg-error-dark {
-  background-color: hsla(var(--color-error-dark-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-error-dark-hsl), var(--bg-opacity, 1));
 }
 
 .bg-error {
-  background-color: hsla(var(--color-error-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-error-hsl), var(--bg-opacity, 1));
 }
 
 .bg-error-light {
-  background-color: hsla(var(--color-error-light-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-error-light-hsl), var(--bg-opacity, 1));
 }
 
 .bg-error-lighter {
-  background-color: hsla(var(--color-error-lighter-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-error-lighter-hsl), var(--bg-opacity, 1));
 }
 
 .bg-white {
-  background-color: hsla(var(--color-white-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-white-hsl), var(--bg-opacity, 1));
 }
 
 .bg-black {
-  background-color: hsla(var(--color-black-hsl), var(--bg-alpha, 1));
+  background-color: hsla(var(--color-black-hsl), var(--bg-opacity, 1));
 }
 
 .bg-opacity-0 {
-  --bg-alpha: 0;
+  --bg-opacity: 0;
 }
 
 .bg-opacity-5\% {
-  --bg-alpha: 0.05;
+  --bg-opacity: 0.05;
 }
 
 .bg-opacity-10\% {
-  --bg-alpha: 0.1;
+  --bg-opacity: 0.1;
 }
 
 .bg-opacity-15\% {
-  --bg-alpha: 0.15;
+  --bg-opacity: 0.15;
 }
 
 .bg-opacity-20\% {
-  --bg-alpha: 0.2;
+  --bg-opacity: 0.2;
 }
 
 .bg-opacity-25\% {
-  --bg-alpha: 0.25;
+  --bg-opacity: 0.25;
 }
 
 .bg-opacity-30\% {
-  --bg-alpha: 0.3;
+  --bg-opacity: 0.3;
 }
 
 .bg-opacity-40\% {
-  --bg-alpha: 0.4;
+  --bg-opacity: 0.4;
 }
 
 .bg-opacity-50\% {
-  --bg-alpha: 0.5;
+  --bg-opacity: 0.5;
 }
 
 .bg-opacity-60\% {
-  --bg-alpha: 0.6;
+  --bg-opacity: 0.6;
 }
 
 .bg-opacity-70\% {
-  --bg-alpha: 0.7;
+  --bg-opacity: 0.7;
 }
 
 .bg-opacity-75\% {
-  --bg-alpha: 0.75;
+  --bg-opacity: 0.75;
 }
 
 .bg-opacity-80\% {
-  --bg-alpha: 0.8;
+  --bg-opacity: 0.8;
 }
 
 .bg-opacity-85\% {
-  --bg-alpha: 0.85;
+  --bg-opacity: 0.85;
 }
 
 .bg-opacity-90\% {
-  --bg-alpha: 0.9;
+  --bg-opacity: 0.9;
 }
 
 .bg-opacity-95\% {
-  --bg-alpha: 0.95;
+  --bg-opacity: 0.95;
 }
 
 .bg-center {
