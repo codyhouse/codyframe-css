@@ -24,7 +24,7 @@
   --color-accent-lighter: hsl(var(--color-accent-lighter-hsl));
 
   /* black */
-  --color-black-hsl: 231, 15%, 9%;
+  --color-black-hsl: 230, 13%, 9%;
   --color-black: hsl(var(--color-black-hsl));
 
   /* white */
