@@ -313,11 +313,11 @@
 
 /* justify-content */
 .justify-start {
-  justify-content: flex-start;
+  justify-content: start;
 }
 
 .justify-end {
-  justify-content: flex-end;
+  justify-content: end;
 }
 
 .justify-center {
@@ -334,11 +334,11 @@
 }
 
 .items-start {
-  align-items: flex-start;
+  align-items: start;
 }
 
 .items-end {
-  align-items: flex-end;
+  align-items: end;
 }
 
 .items-baseline {
@@ -3308,11 +3308,11 @@
 
   /* justify-content */
   .justify-start\@sm {
-    justify-content: flex-start;
+    justify-content: start;
   }
 
   .justify-end\@sm {
-    justify-content: flex-end;
+    justify-content: end;
   }
 
   .justify-center\@sm {
@@ -3329,11 +3329,11 @@
   }
 
   .items-start\@sm {
-    align-items: flex-start;
+    align-items: start;
   }
 
   .items-end\@sm {
-    align-items: flex-end;
+    align-items: end;
   }
 
   .items-baseline\@sm {
@@ -4806,11 +4806,11 @@
 
   /* justify-content */
   .justify-start\@md {
-    justify-content: flex-start;
+    justify-content: start;
   }
 
   .justify-end\@md {
-    justify-content: flex-end;
+    justify-content: end;
   }
 
   .justify-center\@md {
@@ -4827,11 +4827,11 @@
   }
 
   .items-start\@md {
-    align-items: flex-start;
+    align-items: start;
   }
 
   .items-end\@md {
-    align-items: flex-end;
+    align-items: end;
   }
 
   .items-baseline\@md {
@@ -6304,11 +6304,11 @@
 
   /* justify-content */
   .justify-start\@lg {
-    justify-content: flex-start;
+    justify-content: start;
   }
 
   .justify-end\@lg {
-    justify-content: flex-end;
+    justify-content: end;
   }
 
   .justify-center\@lg {
@@ -6325,11 +6325,11 @@
   }
 
   .items-start\@lg {
-    align-items: flex-start;
+    align-items: start;
   }
 
   .items-end\@lg {
-    align-items: flex-end;
+    align-items: end;
   }
 
   .items-baseline\@lg {
