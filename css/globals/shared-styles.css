@@ -7,7 +7,7 @@
   /* box shadow */
   --shadow-ring: 0 0 0 1px hsla(var(--color-black-hsl), 0.05);
   
-  --shadow-xs:  0 0 0 1px hsla(var(--color-black-hsl), 0.02), 
+  --shadow-xs:  0 0 0 1px hsla(var(--color-black-hsl), 0.02),
                 0 1px 3px -1px hsla(var(--color-black-hsl), 0.2);
   --shadow-sm:  0 0.3px 0.4px hsla(var(--color-black-hsl), 0.02),
                 0 0.9px 1.5px hsla(var(--color-black-hsl), 0.045),

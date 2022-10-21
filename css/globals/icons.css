@@ -1,13 +1,52 @@
+:root {
+  --icon-2xs: 12px;
+  --icon-xs:  16px;
+  --icon-sm:  20px;
+  --icon-md:  24px;
+  --icon-lg:  32px;
+  --icon-xl:  48px;
+  --icon-2xl: 64px;
+}
+
 .icon {
   --size: 1em;
-  height: var(--size);
-  width: var(--size);
+  font-size: var(--size);
+  height: 1em;
+  width: 1em;
   display: inline-block;
   color: inherit;
   fill: currentColor;
   line-height: 1;
   flex-shrink: 0;
   max-width: initial;
+}
+
+.icon--2xs {
+  --size: var(--icon-2xs);
+}
+
+.icon--xs {
+  --size: var(--icon-xs);
+}
+
+.icon--sm {
+  --size: var(--icon-sm);
+}
+
+.icon--md {
+  --size: var(--icon-md);
+}
+
+.icon--lg {
+  --size: var(--icon-lg);
+}
+
+.icon--xl {
+  --size: var(--icon-xl);
+}
+
+.icon--2xl {
+  --size: var(--icon-2xl);
 }
 
 /* rotate the icon infinitely */
