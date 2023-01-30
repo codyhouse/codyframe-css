@@ -1,13 +1,13 @@
 {
   "name": "codyframe-css",
-  "version": "0.1.0",
-  "description": "Experimental, CSS-only version of the CodyHouse framework.",
+  "version": "0.1.1",
+  "description": "An intuitive CSS framework.",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amber Creative Lab <info@ambercreative.co>",
+  "author": "Amber Creative <info@ambercreative.co>",
   "license": "MIT",
   "homepage": "https://codyhouse.co",
   "repository": {
