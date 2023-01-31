@@ -1630,24 +1630,32 @@ $breakpoints: (
 }
 
 /* line-height */
+:root {
+  --line-height-xs: 1.1;
+  --line-height-sm: 1.2;
+  --line-height-md: 1.4;
+  --line-height-lg: 1.58;
+  --line-height-xl: 1.72;
+}
+
 .#{$prefix}line-height-xs {
-  line-height: 1.1;
+  line-height: var(--line-height-xs);
 }
 
 .#{$prefix}line-height-sm {
-  line-height: 1.2;
+  line-height: var(--line-height-sm);
 }
 
 .#{$prefix}line-height-md {
-  line-height: 1.4;
+  line-height: var(--line-height-md);
 }
 
 .#{$prefix}line-height-lg {
-  line-height: 1.58;
+  line-height: var(--line-height-lg);
 }
 
 .#{$prefix}line-height-xl {
-  line-height: 1.72;
+  line-height: var(--line-height-xl);
 }
 
 .#{$prefix}line-height-body {
@@ -3107,6 +3115,23 @@ $breakpoints: (
   backdrop-filter: blur(20px);
 }
 
+/* mix-blend-mode */
+.#{$prefix}isolate {
+  isolation: isolate;
+}
+
+.#{$prefix}blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.#{$prefix}blend-overlay {
+  mix-blend-mode: overlay;
+}
+
+.#{$prefix}blend-difference {
+  mix-blend-mode: difference;
+}
+
 /* object-fit */
 .#{$prefix}object-contain {
   object-fit: contain;
@@ -3114,6 +3139,35 @@ $breakpoints: (
 
 .#{$prefix}object-cover {
   object-fit: cover;
+}
+
+/* perspective */
+:root {
+  --perspective-xs: 250px;
+  --perspective-sm: 500px;
+  --perspective-md: 1000px;
+  --perspective-lg: 1500px;
+  --perspective-xl: 3000px;
+}
+
+.#{$prefix}perspective-xs {
+  perspective: var(--perspective-xs);
+}
+
+.#{$prefix}perspective-sm {
+  perspective: var(--perspective-sm);
+}
+
+.#{$prefix}perspective-md {
+  perspective: var(--perspective-md);
+}
+
+.#{$prefix}perspective-lg {
+  perspective: var(--perspective-lg);
+}
+
+.#{$prefix}perspective-xl {
+  perspective: var(--perspective-xl);
 }
 
 /* transform */
