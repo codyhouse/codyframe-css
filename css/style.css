@@ -11,5 +11,7 @@
 @import 'globals/forms.css';
 @import 'globals/z-index.css';
 
+/* import here your components */
+
 /* utility classes */
 @import 'util.css';

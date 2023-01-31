@@ -2159,12 +2159,108 @@ $breakpoints: (
   left: 0;
 }
 
+.#{$prefix}top-4xs {
+  top: var(--space-4xs);
+}
+
+.#{$prefix}top-3xs {
+  top: var(--space-3xs);
+}
+
+.#{$prefix}top-2xs {
+  top: var(--space-2xs);
+}
+
+.#{$prefix}top-xs {
+  top: var(--space-xs);
+}
+
+.#{$prefix}top-sm {
+  top: var(--space-sm);
+}
+
+.#{$prefix}top-md {
+  top: var(--space-md);
+}
+
+.#{$prefix}top-lg {
+  top: var(--space-lg);
+}
+
+.#{$prefix}top-xl {
+  top: var(--space-xl);
+}
+
+.#{$prefix}top-2xl {
+  top: var(--space-2xl);
+}
+
+.#{$prefix}top-3xl {
+  top: var(--space-3xl);
+}
+
+.#{$prefix}top-4xl {
+  top: var(--space-4xl);
+}
+
+.#{$prefix}top-auto {
+  top: auto;
+}
+
 .#{$prefix}top-0 {
   top: 0;
 }
 
 .#{$prefix}top-50\% {
   top: 50%;
+}
+
+.#{$prefix}bottom-4xs {
+  bottom: var(--space-4xs);
+}
+
+.#{$prefix}bottom-3xs {
+  bottom: var(--space-3xs);
+}
+
+.#{$prefix}bottom-2xs {
+  bottom: var(--space-2xs);
+}
+
+.#{$prefix}bottom-xs {
+  bottom: var(--space-xs);
+}
+
+.#{$prefix}bottom-sm {
+  bottom: var(--space-sm);
+}
+
+.#{$prefix}bottom-md {
+  bottom: var(--space-md);
+}
+
+.#{$prefix}bottom-lg {
+  bottom: var(--space-lg);
+}
+
+.#{$prefix}bottom-xl {
+  bottom: var(--space-xl);
+}
+
+.#{$prefix}bottom-2xl {
+  bottom: var(--space-2xl);
+}
+
+.#{$prefix}bottom-3xl {
+  bottom: var(--space-3xl);
+}
+
+.#{$prefix}bottom-4xl {
+  bottom: var(--space-4xl);
+}
+
+.#{$prefix}bottom-auto {
+  bottom: auto;
 }
 
 .#{$prefix}bottom-0 {
@@ -2175,12 +2271,108 @@ $breakpoints: (
   bottom: 50%;
 }
 
+.#{$prefix}right-4xs {
+  right: var(--space-4xs);
+}
+
+.#{$prefix}right-3xs {
+  right: var(--space-3xs);
+}
+
+.#{$prefix}right-2xs {
+  right: var(--space-2xs);
+}
+
+.#{$prefix}right-xs {
+  right: var(--space-xs);
+}
+
+.#{$prefix}right-sm {
+  right: var(--space-sm);
+}
+
+.#{$prefix}right-md {
+  right: var(--space-md);
+}
+
+.#{$prefix}right-lg {
+  right: var(--space-lg);
+}
+
+.#{$prefix}right-xl {
+  right: var(--space-xl);
+}
+
+.#{$prefix}right-2xl {
+  right: var(--space-2xl);
+}
+
+.#{$prefix}right-3xl {
+  right: var(--space-3xl);
+}
+
+.#{$prefix}right-4xl {
+  right: var(--space-4xl);
+}
+
+.#{$prefix}right-auto {
+  right: auto;
+}
+
 .#{$prefix}right-0 {
   right: 0;
 }
 
 .#{$prefix}right-50\% {
   right: 50%;
+}
+
+.#{$prefix}left-4xs {
+  left: var(--space-4xs);
+}
+
+.#{$prefix}left-3xs {
+  left: var(--space-3xs);
+}
+
+.#{$prefix}left-2xs {
+  left: var(--space-2xs);
+}
+
+.#{$prefix}left-xs {
+  left: var(--space-xs);
+}
+
+.#{$prefix}left-sm {
+  left: var(--space-sm);
+}
+
+.#{$prefix}left-md {
+  left: var(--space-md);
+}
+
+.#{$prefix}left-lg {
+  left: var(--space-lg);
+}
+
+.#{$prefix}left-xl {
+  left: var(--space-xl);
+}
+
+.#{$prefix}left-2xl {
+  left: var(--space-2xl);
+}
+
+.#{$prefix}left-3xl {
+  left: var(--space-3xl);
+}
+
+.#{$prefix}left-4xl {
+  left: var(--space-4xl);
+}
+
+.#{$prefix}left-auto {
+  left: auto;
 }
 
 .#{$prefix}left-0 {
@@ -4613,34 +4805,226 @@ $breakpoints: (
       left: 0;
     }
 
+    .#{$prefix}top-4xs\@#{$breakpoint} {
+      top: var(--space-4xs);
+    }
+    
+    .#{$prefix}top-3xs\@#{$breakpoint} {
+      top: var(--space-3xs);
+    }
+    
+    .#{$prefix}top-2xs\@#{$breakpoint} {
+      top: var(--space-2xs);
+    }
+    
+    .#{$prefix}top-xs\@#{$breakpoint} {
+      top: var(--space-xs);
+    }
+    
+    .#{$prefix}top-sm\@#{$breakpoint} {
+      top: var(--space-sm);
+    }
+    
+    .#{$prefix}top-md\@#{$breakpoint} {
+      top: var(--space-md);
+    }
+    
+    .#{$prefix}top-lg\@#{$breakpoint} {
+      top: var(--space-lg);
+    }
+    
+    .#{$prefix}top-xl\@#{$breakpoint} {
+      top: var(--space-xl);
+    }
+    
+    .#{$prefix}top-2xl\@#{$breakpoint} {
+      top: var(--space-2xl);
+    }
+    
+    .#{$prefix}top-3xl\@#{$breakpoint} {
+      top: var(--space-3xl);
+    }
+    
+    .#{$prefix}top-4xl\@#{$breakpoint} {
+      top: var(--space-4xl);
+    }
+    
+    .#{$prefix}top-auto\@#{$breakpoint} {
+      top: auto;
+    }
+    
     .#{$prefix}top-0\@#{$breakpoint} {
       top: 0;
     }
-
+    
     .#{$prefix}top-50\%\@#{$breakpoint} {
       top: 50%;
     }
 
+    .#{$prefix}bottom-4xs\@#{$breakpoint} {
+      bottom: var(--space-4xs);
+    }
+    
+    .#{$prefix}bottom-3xs\@#{$breakpoint} {
+      bottom: var(--space-3xs);
+    }
+    
+    .#{$prefix}bottom-2xs\@#{$breakpoint} {
+      bottom: var(--space-2xs);
+    }
+    
+    .#{$prefix}bottom-xs\@#{$breakpoint} {
+      bottom: var(--space-xs);
+    }
+    
+    .#{$prefix}bottom-sm\@#{$breakpoint} {
+      bottom: var(--space-sm);
+    }
+    
+    .#{$prefix}bottom-md\@#{$breakpoint} {
+      bottom: var(--space-md);
+    }
+    
+    .#{$prefix}bottom-lg\@#{$breakpoint} {
+      bottom: var(--space-lg);
+    }
+    
+    .#{$prefix}bottom-xl\@#{$breakpoint} {
+      bottom: var(--space-xl);
+    }
+    
+    .#{$prefix}bottom-2xl\@#{$breakpoint} {
+      bottom: var(--space-2xl);
+    }
+    
+    .#{$prefix}bottom-3xl\@#{$breakpoint} {
+      bottom: var(--space-3xl);
+    }
+    
+    .#{$prefix}bottom-4xl\@#{$breakpoint} {
+      bottom: var(--space-4xl);
+    }
+    
+    .#{$prefix}bottom-auto\@#{$breakpoint} {
+      bottom: auto;
+    }
+    
     .#{$prefix}bottom-0\@#{$breakpoint} {
       bottom: 0;
     }
-
+    
     .#{$prefix}bottom-50\%\@#{$breakpoint} {
       bottom: 50%;
     }
 
+    .#{$prefix}right-4xs\@#{$breakpoint} {
+      right: var(--space-4xs);
+    }
+    
+    .#{$prefix}right-3xs\@#{$breakpoint} {
+      right: var(--space-3xs);
+    }
+    
+    .#{$prefix}right-2xs\@#{$breakpoint} {
+      right: var(--space-2xs);
+    }
+    
+    .#{$prefix}right-xs\@#{$breakpoint} {
+      right: var(--space-xs);
+    }
+    
+    .#{$prefix}right-sm\@#{$breakpoint} {
+      right: var(--space-sm);
+    }
+    
+    .#{$prefix}right-md\@#{$breakpoint} {
+      right: var(--space-md);
+    }
+    
+    .#{$prefix}right-lg\@#{$breakpoint} {
+      right: var(--space-lg);
+    }
+    
+    .#{$prefix}right-xl\@#{$breakpoint} {
+      right: var(--space-xl);
+    }
+    
+    .#{$prefix}right-2xl\@#{$breakpoint} {
+      right: var(--space-2xl);
+    }
+    
+    .#{$prefix}right-3xl\@#{$breakpoint} {
+      right: var(--space-3xl);
+    }
+    
+    .#{$prefix}right-4xl\@#{$breakpoint} {
+      right: var(--space-4xl);
+    }
+    
+    .#{$prefix}right-auto\@#{$breakpoint} {
+      right: auto;
+    }
+    
     .#{$prefix}right-0\@#{$breakpoint} {
       right: 0;
     }
-
+    
     .#{$prefix}right-50\%\@#{$breakpoint} {
       right: 50%;
     }
 
+    .#{$prefix}left-4xs\@#{$breakpoint} {
+      left: var(--space-4xs);
+    }
+    
+    .#{$prefix}left-3xs\@#{$breakpoint} {
+      left: var(--space-3xs);
+    }
+    
+    .#{$prefix}left-2xs\@#{$breakpoint} {
+      left: var(--space-2xs);
+    }
+    
+    .#{$prefix}left-xs\@#{$breakpoint} {
+      left: var(--space-xs);
+    }
+    
+    .#{$prefix}left-sm\@#{$breakpoint} {
+      left: var(--space-sm);
+    }
+    
+    .#{$prefix}left-md\@#{$breakpoint} {
+      left: var(--space-md);
+    }
+    
+    .#{$prefix}left-lg\@#{$breakpoint} {
+      left: var(--space-lg);
+    }
+    
+    .#{$prefix}left-xl\@#{$breakpoint} {
+      left: var(--space-xl);
+    }
+    
+    .#{$prefix}left-2xl\@#{$breakpoint} {
+      left: var(--space-2xl);
+    }
+    
+    .#{$prefix}left-3xl\@#{$breakpoint} {
+      left: var(--space-3xl);
+    }
+    
+    .#{$prefix}left-4xl\@#{$breakpoint} {
+      left: var(--space-4xl);
+    }
+    
+    .#{$prefix}left-auto\@#{$breakpoint} {
+      left: auto;
+    }
+    
     .#{$prefix}left-0\@#{$breakpoint} {
       left: 0;
     }
-
+    
     .#{$prefix}left-50\%\@#{$breakpoint} {
       left: 50%;
     }
